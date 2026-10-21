@@ -1,20 +1,27 @@
 #simple ai
 import login
 
-print("WELCOME TO HOME AI\n")
+print("JARVIS AI\n")
 
 while True:
-    enter =input("")
+    enter =input("> ")
 
-    if enter == 'hello' or enter == 'hey':
+    if enter in ('hello', 'hi', 'hey'): 
         print('Hello.What can i help you today with.\n')
 
-    if enter == 'calculator':
+    elif enter == 'calculator':
         import calculator
         calculator.calculate()
 
-    if enter.lower() == 'break':
+    elif enter == "help":
+        print("Commands: hello, calculator, help, break")
+
+    
+    elif enter.lower() == 'break':
         break
+
+    else:
+        print("I don't understand that command. Type 'help' for a list of commands.\n")
 
 
         
