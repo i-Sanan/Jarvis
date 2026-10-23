@@ -1,5 +1,4 @@
-
-# Jarvis — Personal AI Agent
+Jarvis — Personal AI Agent
 
 I am a Software Engineering student working toward building my own personal AI agent, Jarvis.
 
