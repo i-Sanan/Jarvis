@@ -14,11 +14,11 @@ while True:
         calculator.calculate()
 
     elif enter == 'career':
-        import career
-        career.details()
+        import subprocess
+        subprocess.run(["./build/career"])
 
     elif enter == "help":
-        print("Commands: hello, calculator, help, break")
+        print("Commands: hello, calculator, help, break, career\n")
 
     
     elif enter.lower() == 'break':
