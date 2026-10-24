@@ -13,6 +13,10 @@ while True:
         import calculator
         calculator.calculate()
 
+    elif enter == 'career':
+        import career
+        career.details()
+
     elif enter == "help":
         print("Commands: hello, calculator, help, break")
 
