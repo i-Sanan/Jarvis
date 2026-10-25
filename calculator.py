@@ -1,5 +1,4 @@
-
-# calculator.py
+#calculator.py
 
 def calculate():
     print("--- Jarvis Calculator ---")
