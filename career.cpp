@@ -1,5 +1,4 @@
-//    this is a career ai that helps you choose your carrer in tech feild like:
-
+//    this is ai that helps you choose your carrer in tech feild like:
 
 // ai
 // data science
