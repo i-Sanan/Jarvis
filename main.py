@@ -21,12 +21,14 @@ while True:
     elif enter == "help":
         print("Commands: hello, calculator, help, break, career help\n")
 
-    
+
     elif enter.lower() == 'break':
         break
 
     else:
         print("I don't understand that command. Type 'help' for a list of commands.\n")
+
+    
         
 
 
