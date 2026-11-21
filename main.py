@@ -19,7 +19,7 @@ while True:
         subprocess.run(["./build/career"])
 
     elif enter == "help":
-        print("Commands: hello, calculator, help, break, career help\n")
+        print("Commands: hello, calculator, help, break, career help,break\n")
 
 
     elif enter.lower() == 'break':
