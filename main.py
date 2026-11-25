@@ -27,6 +27,7 @@ while True:
 
     else:
         print("I don't understand that command. Type 'help' for a list of commands.\n")
+        print("")
 
     
         
